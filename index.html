@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TEMPUS - Nova</title>
+        <link rel="shortcut icon" href="favicon.png" />
+        <meta property="og:title" content="Togthr template" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+        <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+        <!--This is the head section-->
+        <!-- <style> ... </style> -->
+        <link rel="stylesheet" href="https://unpkg.com/blaze-slider@latest/dist/blaze.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link href="assets/css/index.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <div class="home-container1">
+                <section class="home-hero">
+                    <header class="home-header10" data-aos="fade-down">
+                        <header data-thq="thq-navbar" class="home-navbar">
+                            <img alt="image" src="public/logo-nova-header.webp" class="home-branding1" />
+                            <!-- Menú de navegación -->
+                            <nav class="home-menu">
+                                <ul>
+                                    <li><a href="#descripcion">DESCRIPCIÓN</a></li>
+                                    <li><a href="#galeria">GALERÍA</a></li>
+                                    <li><a href="#tour">TOUR VIRTUAL</a></li>
+                                    <li><a href="#planos">PLANOS</a></li>
+                                    <li><a href="#ubicacion">UBICACIÓN</a></li>
+                                </ul>
+                            </nav>
+                            <div data-thq="thq-burger-menu" class="home-burger-menu">
+                                <div class="home-hamburger">
+                                    <img alt="image" src="public/hamburger.svg" class="home-icon10" />
+                                </div>
+                            </div>
+                            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                                <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="home-nav1">
+                                    <div class="home-container2">
+                                        <img alt="image" src="public/logo.svg" class="home-image10" />
+                                        <div data-thq="thq-close-menu" class="home-menu-close">
+                                            <svg viewBox="0 0 1024 1024" class="home-icon11">
+                                                <path
+                                                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" class="home-nav2">
+                                        <a href="#descripcion" class="home-text10">DESCRIPCIÓN</a>
+                                        <a href="#galeria" class="home-text11">GALERÍA</a>
+                                        <a href="#tour" class="home-text12">TOUR VIRTUAL</a>
+                                        <a href="#planos" class="home-text13">PLANOS</a>
+                                        <a href="#ubicacion" class="home-text14">UBICACIÓN</a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </header>
+                    </header>
+                    <video
+                        src="public/video.mp4"
+                        loop=""
+                        muted=""
+                        poster="public/hero-bg.png"
+                        preload="auto"
+                        autoplay=""
+                        playsinline=""
+                        class="home-video"
+                    ></video>
+                    <div class="home-hero-content">
+                        <div class="home-header-container1" data-aos="fade-up">
+                            <div class="home-header11">
+                                <h1 class="home-heading10">
+                                    <span>Estilo y modernidad en el corazón de Lima</span>
+                                    <!-- <span>En MIRAFLORES</span>
+                                    <span class="font-light">transformamos espacios para mejorar tu vida</span> -->
+                                    <br />
+                                </h1>
+                            </div>
+                            <!--p class="home-caption10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p-->
+                        </div>
+                        <!--button class="button home-button1">
+              <span>
+                <span>Get started today</span>
+                <br />
+              </span>
+            </button-->
+                        <div class="home-images1 content-form" data-aos="zoom-in">
+                            <div class="form-container bg-rosa boder-0">
+                                <h3>¡Cotiza ahora!</h3>
+                                <form action="_api/send.php" method="POST" autocomplete="off">
+                                    <input id="cotiza-utm-source" type="hidden" name="utm_source" value="" />
+                                    <input id="cotiza-utm-medium" type="hidden" name="utm_medium" value="" />
+                                    <input id="cotiza-utm-campaign" type="hidden" name="utm_campaign" value="" />
+                                    <input id="cotiza-utm-term" type="hidden" name="utm_term" value="" />
+                                    <input id="cotiza-utm-content" type="hidden" name="utm_content" value="" />
+
+                                    <!--div class="form-group">
+                    <select required>
+                      <option value="" disabled selected></option>
+                      <option value="ventas">Flat SS04</option>
+                      <option value="soporte">Flat SS05</option>
+                      <option value="otros">Flat SS06</option>
+                    </select>
+                    <label>Selecciona un departamento</label>
+                  </div-->
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input type="text" name="nombres" id="nombres" placeholder=" " required />
+                                            <label>Nombres</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="apellidos" id="apellidos" placeholder=" " required />
+                                            <label>Apellidos</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input
+                                                type="tel"
+                                                id="telefonos"
+                                                oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                                                name="telefonos"
+                                                placeholder=" "
+                                                required
+                                            />
+                                            <label>Teléfono</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" id="email" name="email" placeholder=" " required />
+                                            <label>Correo</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <select id="tipo_documento" name="tipo_documento" required>
+                                                <option value="" disabled selected></option>
+                                                <option value="dni">DNI</option>
+                                                <option value="ce">Carné de extranjería</option>
+                                                <option value="pass">Pasaporte</option>
+                                            </select>
+                                            <label>Tipo de documento</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input
+                                                type="number"
+                                                oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                                                id="documento"
+                                                name="documento"
+                                                placeholder=" "
+                                                required
+                                            />
+                                            <label>N° de documento</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" required />
+                                        <label
+                                            >Acepto las
+                                            <a href="https://tempus.pe/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a
+                                            >.</label
+                                        >
+                                    </div>
+                                    <button type="submit" name="btn_enviar" value="enviar_form" class="home-button6 button">ENVIAR</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-experience" id="descripcion">
+                    <div class="home-growth">
+                        <div class="home-images2" data-aos="fade-right">
+                            <button
+                                class="play"
+                                type="button"
+                                id="openVideoBtn"
+                                data-video="public/video_la_paz.mp4"
+                                aria-label="Abrir video"
+                            >
+                                <img src="public/play.svg" alt="Play" />
+                            </button>
+                            <img alt="image" src="public/fachada.webp" class="home-image17" />
+                        </div>
+                        <div class="home-content18" data-aos="fade-left">
+                            <div class="home-header23">
+                                <div class="home-header-container3">
+                                    <div class="home-header24">
+                                        <h2 class="logo-tempus">
+                                            <img src="public/logo-tempus-la-paz.svg" alt="TEMPUS LA PAZ MIRAFLORES" />
+                                        </h2>
+                                    </div>
+
+                                    <div class="home-checkmarks">
+                                        <div class="home-check1">
+                                            <div class="home-mark1">
+                                                <img src="public/mark.svg" alt="" />
+                                            </div>
+                                            <span class="home-text43 font-medium">Av. La Paz 1227, Miraflores</span>
+                                        </div>
+                                    </div>
+                                    <h2 class="home-header23-title">Donde se encuentran la <span class="a">ciudad y el confort</span></h2>
+                                    <p class="home-caption27 font-light">
+                                        Un proyecto conectado al centro de la ciudad, en cercado de lima, pero con una calidad en sus
+                                        espacios superior. Departamentos de 2 y 3 dormitorios con acabados de primera calidad y un diseño
+                                        moderno que privilegia el confort y la sofisticación.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="container caract-descripcion">
+                                <div class="feature">
+                                    <img src="public/icon-dep.svg" alt="Departamentos" />
+                                    <div class="number">199</div>
+                                    <div class="text">Departamentos</div>
+                                </div>
+
+                                <!-- Característica 2 -->
+                                <div class="feature">
+                                    <img src="public/icon-dorm.svg" alt="Pisos" />
+                                    <div class="number">23</div>
+                                    <div class="text">Pisos</div>
+                                </div>
+
+                                <!-- Característica 3 -->
+                                <div class="feature">
+                                    <img src="public/icon-area.svg" alt="Estacionamientos" />
+                                    <div class="number">6</div>
+                                    <div class="text">Estacionamientos</div>
+                                </div>
+                                <div class="feature">
+                                    <img src="public/icon-area.svg" alt="Ascensores" />
+                                    <div class="number">4</div>
+                                    <div class="text">Ascensores</div>
+                                </div>
+                                <!-- Característica 1 -->
+                                <!-- <div class="feature">
+                                    <img src="public/icon-dep.svg" alt="Departamentos" />
+                                    <div class="number">49</div>
+                                    <div class="text">Departamentos</div>
+                                </div> -->
+
+                                <!-- Característica 2 -->
+                                <!-- <div class="feature">
+                                    <img src="public/icon-dorm.svg" alt="Dormitorios" />
+                                    <div class="number">1 • 2 • 3</div>
+                                    <div class="text">Dormitorios</div>
+                                </div> -->
+
+                                <!-- Característica 3 -->
+                                <!-- <div class="feature">
+                                    <img src="public/icon-area.svg" alt="Metros cuadrados" />
+                                    <div class="number">Desde 70m²</div>
+                                    <div class="text">Hasta 141m²</div>
+                                </div> -->
+                            </div>
+                            <!--button data-role="" class="home-button6 button bg-rosa verde">
+                DESCARGAR BROCHURE <img alt="image" src="public/download.svg" class="home-image21">
+              </button-->
+                            <a href="public/Brochure_LAPAZ.pdf" class="home-button6 button bg-rosa verde" target="_blank">
+                                DESCARGAR BROCHURE
+                                <img alt="image" src="public/download.svg" class="home-image21" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-slides bg-rosa" id="galeria">
+                    <div class="home-header-container4" data-aos="fade-down">
+                        <div class="home-header26">
+                            <h3 class="home-heading20 title">
+                                <span>¡ESPACIOS ÚNICOS!</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="tabs-container" data-aos="fade-up">
+                        <div class="tabs-header">
+                            <button class="tab-btn active" data-tab="interiores">INTERIORES</button>
+                            <button class="tab-btn" data-tab="comunes">ÁREAS COMUNES</button>
+                        </div>
+                        <div id="interiores" class="tab-content active">
+                            <div class="home-slider2 slider blaze-slider" id="slider-interiores">
+                                <div class="home-slider-container blaze-container">
+                                    <div class="home-slider-track-container blaze-track-container">
+                                        <div class="home-slider-track blaze-track">
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Sala comedor</p>
+                                                <img alt="image" src="public/Sala-Comedor.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Cocina</p>
+                                                <img alt="image" src="public/Cocina.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Dormitorio principal</p>
+                                                <img alt="image" src="public/Dormitorio-principal.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Baño</p>
+                                                <img alt="image" src="public/SS.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-controls1">
+                                        <button data-role="previous-banner-button" class="home-previous1 blaze-prev button">
+                                            <svg viewBox="0 0 1024 1024" class="home-icon27">
+                                                <path
+                                                    d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                        <button data-role="next-banner-button" class="home-next1 blaze-next button">
+                                            <svg viewBox="0 0 1024 1024" class="home-icon29">
+                                                <path
+                                                    d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="comunes" class="tab-content">
+                            <div class="home-slider2 slider blaze-slider" id="slider-comunes">
+                                <div class="home-slider-container blaze-container">
+                                    <div class="home-slider-track-container blaze-track-container">
+                                        <div class="home-slider-track2 blaze-track">
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Lobby</p>
+                                                <img alt="image" src="public/Lobby.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Coworking</p>
+                                                <img alt="image" src="public/Coworking.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Gym</p>
+                                                <img alt="image" src="public/Gimnasio.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>BBQ Zone</p>
+                                                <img alt="image" src="public/Parrillas.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>PetZone</p>
+                                                <img alt="image" src="public/Petzone.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Gourmet Lounge</p>
+                                                <img alt="image" src="public/Salon-Gourmet.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                            <div data-role="current-banner" class="banner">
+                                                <p>Bike Station</p>
+                                                <img alt="image" src="public/Taller-de-bicicletas.webp" class="home-image11" />
+                                                <div class="overlay">
+                                                    <span class="lupa"><img src="public/lupa.svg" alt="lupa" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="home-controls1">
+                                        <button data-role="previous-banner-button" class="home-previous1 blaze-prev button">
+                                            <svg viewBox="0 0 1024 1024" class="home-icon27">
+                                                <path
+                                                    d="M542.165 780.501l-225.835-225.835h494.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-494.336l225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-298.667 298.667c-4.096 4.096-7.168 8.789-9.259 13.824-2.176 5.205-3.243 10.795-3.243 16.341 0 10.923 4.181 21.845 12.501 30.165l298.667 298.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                        <button data-role="next-banner-button" class="home-next1 blaze-next button">
+                                            <svg viewBox="0 0 1024 1024" class="home-icon29">
+                                                <path
+                                                    d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="home-container5">
+                            <script src="https://unpkg.com/blaze-slider@latest/dist/blaze-slider.min.js"></script>
+                            <script>
+                                // Tabs independientes
+                                document.querySelectorAll(".tab-btn").forEach((button) => {
+                                    button.addEventListener("click", () => {
+                                        const tabId = button.getAttribute("data-tab");
+
+                                        // Quitar active de todos los botones y tabs
+                                        document.querySelectorAll(".tab-btn").forEach((btn) => btn.classList.remove("active"));
+                                        document.querySelectorAll(".tab-content").forEach((tab) => tab.classList.remove("active"));
+
+                                        // Activar el tab correspondiente
+                                        button.classList.add("active");
+                                        document.getElementById(tabId).classList.add("active");
+                                    });
+                                });
+
+                                // Sliders independientes
+                                new BlazeSlider(document.querySelector("#slider-interiores"), {
+                                    all: {
+                                        slidesToShow: 3,
+                                        loop: true,
+                                        enableAutoplay: true,
+                                        slideGap: "0px",
+                                        autoplayInterval: 5000,
+                                        transitionDuration: 1000,
+                                    },
+                                    "(max-width: 390px)": {
+                                        slidesToShow: 1,
+                                    },
+                                });
+
+                                new BlazeSlider(document.querySelector("#slider-comunes"), {
+                                    all: {
+                                        slidesToShow: 3,
+                                        loop: true,
+                                        enableAutoplay: true,
+                                        slideGap: "0px",
+                                        autoplayInterval: 5000,
+                                        transitionDuration: 1000,
+                                    },
+                                    "(max-width: 390px)": {
+                                        slidesToShow: 1,
+                                    },
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-faq" id="tour">
+                    <div class="home-growth2">
+                        <div class="home-header-container4" data-aos="fade-down">
+                            <div class="home-header26">
+                                <h3 class="home-heading20 title blanco mb-0">
+                                    <span>TOUR VIRTUAL</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="home-content30">
+                            <div class="home-column1" data-aos="fade-right">
+                                <iframe
+                                    src="https://kuula.co/share/hHh8R/collection/716xd?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"
+                                    frameborder="0"
+                                ></iframe>
+                                <!--img src="public/tour1.jpg" class="img-tour" alt=""-->
+                            </div>
+                            <div class="home-column2" data-aos="fade-left">
+                                <iframe
+                                    src="https://360.nerdstudio.pe/recorridovirtual/tempus/lapaz/elevaciones360/index.htm"
+                                    frameborder="0"
+                                ></iframe>
+                                <!--img src="public/tour2.jpg" class="img-tour" alt=""-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="planos bg-rosa" id="planos">
+                    <div class="home-growth">
+                        <div class="home-content16">
+                            <div class="home-header21" data-aos="fade-down">
+                                <div class="home-header22">
+                                    <h3 class="home-heading20 title">
+                                        <span>ELIGE TU DEPA</span>
+                                        <br />
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="inmuebles-container" data-aos="fade-up">
+                                <!-- Tabs principales -->
+                                <div class="tabs-principales">
+                                    <button class="tab-btn2 active" data-tab="flats">FLATS</button>
+                                    <button class="tab-btn2" data-tab="duplex">DÚPLEX</button>
+                                </div>
+
+                                <!-- Contenido de FLATS -->
+                                <div class="tab-content2 active" id="flats">
+                                    <!-- Sub-tabs -->
+                                    <div class="sub-tabs">
+                                        <button class="sub-tab-btn active" data-subtab="flats-1dorm">1 dorm</button>
+                                        <button class="sub-tab-btn" data-subtab="flats-2dorm">2 dorm</button>
+                                        <button class="sub-tab-btn" data-subtab="flats-3dorm">3 dorm</button>
+                                    </div>
+
+                                    <!-- Subtab: 1 Dorm -->
+                                    <div class="subtab-content active" id="flats-1dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat1-1dorm.webp" alt="Plano Flat SS04" />
+                                                    <!--div class="info-plano">
+                            <h3>Flat SS04</h3>
+                            <p>1 dorm. + K</p>
+                            <p>Área total: 88.77m²</p>
+                            <p>Área terraza: 19.48m²</p>
+                          </div-->
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat3-1dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat4-1dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Subtab: 2 Dorm -->
+                                    <div class="subtab-content" id="flats-2dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat7-2dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat10-2dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat15-2dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Subtab: 3 Dorm -->
+                                    <div class="subtab-content" id="flats-3dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat2-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat5-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat6-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat8-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <!--<div class="carrusel-item">
+                          <img src="public/flat9-3dorm.webp" alt="Plano Flat SS04" />                          
+                        </div>-->
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat11-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat12-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat13-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat14-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat16-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/flat17-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Contenido de DÚPLEX -->
+                                <div class="tab-content2" id="duplex">
+                                    <div class="sub-tabs">
+                                        <button class="sub-tab-btn active" data-subtab="duplex-1dorm">1 dorm</button>
+                                        <button class="sub-tab-btn" data-subtab="duplex-2dorm">2 dorm</button>
+                                        <button class="sub-tab-btn" data-subtab="duplex-3dorm">3 dorm</button>
+                                    </div>
+                                    <div class="subtab-content active" id="duplex-1dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex2-1dorm.webp" alt="Plano Flat SS04" />
+                                                    <!--div class="info-plano">
+                            <h3>Flat SS04</h3>
+                            <p>1 dorm. + K</p>
+                            <p>Área total: 88.77m²</p>
+                            <p>Área terraza: 19.48m²</p>
+                          </div-->
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <div class="subtab-content" id="duplex-2dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex1-2dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex3-2dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+                                    <div class="subtab-content" id="duplex-3dorm">
+                                        <div class="carrusel">
+                                            <div class="carrusel-track">
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex4-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex5-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex6-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                                <div class="carrusel-item">
+                                                    <img src="public/duplex7-3dorm.webp" alt="Plano Flat SS04" />
+                                                </div>
+                                            </div>
+                                            <button class="carrusel-prev">&#10094;</button>
+                                            <button class="carrusel-next">&#10095;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-images1 content-form" data-aos="fade-left">
+                            <div class="form-container">
+                                <h3>¡Cotiza ahora!</h3>
+                                <p>Para recibir más información, déjanos tus datos y un asesor se pondrá en contacto.</p>
+                                <form action="_api/send.php" method="POST" autocomplete="off">
+                                    <input id="cotiza-utm-source2" type="hidden" name="utm_source2" value="" />
+                                    <input id="cotiza-utm-medium2" type="hidden" name="utm_medium2" value="" />
+                                    <input id="cotiza-utm-campaign2" type="hidden" name="utm_campaign2" value="" />
+                                    <input id="cotiza-utm-term2" type="hidden" name="utm_term2" value="" />
+                                    <input id="cotiza-utm-content2" type="hidden" name="utm_content2" value="" />
+
+                                    <div class="form-group">
+                                        <select id="departamentos" name="departamentos" required>
+                                            <option value="" disabled selected></option>
+                                            <option value="Flat SS04">Flat SS04</option>
+                                            <option value="Flat 101">Flat 101</option>
+                                            <option value="Flat 102">Flat 102</option>
+                                            <option value="Flat 103">Flat 103</option>
+                                            <option value="Flat 201/301/401">Flat 201/301/401</option>
+                                            <option value="Flat 202/302/402">Flat 202/302/402</option>
+                                            <option value="Flat 203">Flat 203</option>
+                                            <option value="Flat 204">Flat 204</option>
+                                            <option value="Flat 205">Flat 205</option>
+                                            <option value="Flat 303-603">Flat 303-603</option>
+                                            <option value="Flat 303-804">Flat 303-804</option>
+                                            <option value="Flat 305-805">Flat 305-805</option>
+                                            <option value="Flat 501-801">Flat 501-801</option>
+                                            <option value="Flat 502-802">Flat 502-802</option>
+                                            <option value="Flat 901">Flat 901</option>
+                                            <option value="Flat 902">Flat 902</option>
+                                            <option value="Flat 903">Flat 903</option>
+                                            <option value="Dúplex SS01">Dúplex SS01</option>
+                                            <option value="Dúplex SS02">Dúplex SS02</option>
+                                            <option value="Dúplex SS03">Dúplex SS03</option>
+                                            <option value="Dúplex 1001">Dúplex 1001</option>
+                                            <option value="Dúplex 1002">Dúplex 1002</option>
+                                            <option value="Dúplex 1003">Dúplex 1003</option>
+                                            <option value="Dúplex 1004">Dúplex 1004</option>
+                                        </select>
+                                        <label>Selecciona un departamento</label>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input name="nombres_depa" id="nombres_depa" type="text" placeholder=" " required />
+                                            <label>Nombres</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input name="apellidos_depa" id="nombres_depa" type="text" placeholder=" " required />
+                                            <label>Apellidos</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input
+                                                id="telefonos_depa"
+                                                oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                                                name="telefonos_depa"
+                                                type="tel"
+                                                placeholder=" "
+                                                required
+                                            />
+                                            <label>Teléfono</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="email_depa" name="email_depa" type="email" placeholder=" " required />
+                                            <label>Correo</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <select id="tipo_documento_depa" name="tipo_documento_depa" required>
+                                                <option value="" disabled selected></option>
+                                                <option value="dni">DNI</option>
+                                                <option value="ce">Carné de extranjería</option>
+                                                <option value="pass">Pasaporte</option>
+                                            </select>
+                                            <label>Tipo de documento</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input
+                                                id="documento_depa"
+                                                oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                                                name="documento_depa"
+                                                type="text"
+                                                placeholder=" "
+                                                required
+                                            />
+                                            <label>N° de documento</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <input type="checkbox" required />
+                                        <label
+                                            >Acepto las
+                                            <a href="https://tempus.pe/politicas-de-privacidad/" target="_blank">Políticas de Privacidad</a
+                                            >.</label
+                                        >
+                                    </div>
+                                    <button name="btn_enviar" value="enviar_form_depa" type="submit" class="home-button6 button">
+                                        ENVIAR
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-get-started bg-rosa" id="ubicacion">
+                    <div class="home-growth">
+                        <div class="home-header-container2">
+                            <div class="home-header20" data-aos="fade-right">
+                                <h3 class="home-heading16">Una ubicación pensada para que vivas a otro ritmo.</h3>
+                                <p class="direccion">
+                                    <img src="public/pin.svg" alt="Ubicación" class="icono" />
+                                    <span class="font-bold">Av. La Paz 1227, Miraflores</span>
+                                </p>
+                                <p>
+                                    Desde cafés con historia hasta restaurantes de autor, desde parques tranquilos hasta el movimiento de la
+                                    ciudad. <span class="font-bold">TEMPUS LA PAZ</span> está ubicado en un punto donde la vida camina
+                                    contigo: cerca del malecón, de la cultura, del sabor y de tu rutina.
+                                </p>
+                                <p>Una ubicación que te permite elegir cómo vivir tu tiempo: sin apuros, con propósito.</p>
+                            </div>
+                            <div class="ubicacion-icons" data-aos="fade-left">
+                                <div class="icon-item">
+                                    <img src="public/restaurantes.svg" alt="Restaurantes" />
+                                    <span>Restaurantes</span>
+                                </div>
+                                <div class="icon-item">
+                                    <img src="public/supermercados.svg" alt="Supermercados" />
+                                    <span>Supermercados</span>
+                                </div>
+                                <div class="icon-item">
+                                    <img src="public/colegios.svg" alt="Colegios" />
+                                    <span>Colegios</span>
+                                </div>
+                                <div class="icon-item">
+                                    <img src="public/clinicas.svg" alt="Clínicas" />
+                                    <span>Clínicas</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-header-container6" data-aos="zoom-in">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7286581685594!2d-77.02600989999999!3d-12.130708799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7e27264ef93%3A0xdda8b2704ea65a39!2sAv.%20la%20Paz%201227%2C%20Miraflores%2018!5e0!3m2!1ses-419!2spe!4v1757372272424!5m2!1ses-419!2spe"
+                                width="100%"
+                                height=""
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </section>
+                <section class="home-get-started">
+                    <div class="home-footer">
+                        <div class="footer-top">
+                            <h3 class="home-heading20 title blanco mb-0" data-aos="fade-right">
+                                AGENDA TU CITA CON<br />NUESTROS ASESORES
+                            </h3>
+                            <div class="asesor">
+                                <div class="asesor-content" data-aos="zoom-in">
+                                    <img src="public/asesor.png" alt="Anthony Mantilla" class="asesor-img" />
+                                    <div class="asesor-info">
+                                        <h5>Anthony Mantilla</h5>
+                                        <p>Asesor de Ventas</p>
+                                    </div>
+                                </div>
+                                <div class="asesor-contacto">
+                                    <p data-aos="zoom-in">
+                                        <a rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=51974765338" target="_blank"
+                                            ><img src="public/whtasapp.svg" alt="whatsapp" /> 974 765 338</a
+                                        >
+                                    </p>
+                                    <!--p data-aos="zoom-in"><a rel="noreferrer noopener" href="tel:974765338" target="_blank"><img src="public/telefono.svg" alt="telefono"> 974 765 338</a></p-->
+                                    <p data-aos="zoom-in">
+                                        <a rel="noreferrer noopener" href="mailto:anthony.mantilla@tempus.pe" target="_blank"
+                                            ><img src="public/correo.svg" alt="correo" /> anthony.mantilla@tempus.pe</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="footer-bottom" data-aos="fade-up">
+                            <div class="footer-left">
+                                <div class="logo">
+                                    <img src="public/logo-footer.svg" alt="Logo Inmobiliaria" />
+                                </div>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/tempusinmobiliaria.pe" target="_blank"
+                                        ><i class="fa-brands fa-facebook-f"></i
+                                    ></a>
+                                    <a href="https://www.instagram.com/tempusinmobiliaria.pe/#" target="_blank"
+                                        ><i class="fa-brands fa-square-instagram"></i
+                                    ></a>
+                                    <a href="https://www.linkedin.com/company/tempusinmobiliaria/?originalSubdomain=pe" target="_blank"
+                                        ><i class="fa-brands fa-linkedin-in"></i
+                                    ></a>
+                                </div>
+                            </div>
+
+                            <div class="footer-middle">
+                                <div>
+                                    <!--a href="#">Términos y condiciones</a><br-->
+                                    <a href="https://tempus.pe/politicas-de-privacidad/" target="_blank">Política de privacidad</a><br />
+                                </div>
+                                <div>
+                                    <a href="https://tempus.pe/libro-de-reclamos/" target="_blank">
+                                        <img src="public/libro.svg" alt="libro de reclamaciones" class="libro" />
+                                        Libro de reclamaciones
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="footer-middle2">
+                                <p>Somos miembros de:</p>
+                                <img class="codip" src="public/dci.png" alt="DCI" />
+                                <img class="codip" src="public/codip.png" alt="CoDIP" />
+                                <img class="capeco" src="public/capeco.png" alt="Capeco" />
+                            </div>
+                            <div class="footer-right">
+                                <p>Certificación:</p>
+                                <a href="https://edgebuildings.com/" target="_blank"
+                                    ><img class="codip" src="public/cert-edge.webp" alt="edge"
+                                /></a>
+                            </div>
+                        </div>
+                        <div class="footer-creditos">
+                            <p class="credito1">
+                                INVERSIONES INMOBILIARIAS DE SAN BORJA - 2061129864<br />TODOS LOS DERECHOS RESERVADOS 2025
+                            </p>
+                            <p class="credito2">POWERED BY <a href="https://exe.digital/" target="_blank">EXE</a><br />HTML - CSS</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Botón flotante de WhatsApp -->
+        <a href="https://wa.me/51949288384" class="whatsapp-float" target="_blank">
+            <img src="public/whatsapp.svg" alt="WhatsApp" />
+        </a>
+        <!-- Modal -->
+        <div id="imgModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg" />
+        </div>
+
+        <!-- Modal de video -->
+        <div id="videoModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+            <div class="modal-content" role="document">
+                <button class="close" aria-label="Cerrar video">&times;</button>
+                <video id="videoPlayer" controls playsinline preload="metadata">
+                    <!-- source será asignado por JS -->
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+
+        <script defer="" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+        <script src="assets/js/fontfaceobserver.js"></script>
+        <script>
+            var font = new FontFaceObserver("Overused Grotesk");
+            font.load()
+                .then(function () {
+                    console.log("Overused Grotesk has loaded.");
+                })
+                .catch(function () {
+                    console.log("Overused Grotesk failed to load.");
+                });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const modal = document.getElementById("imgModal");
+                const modalImg = document.getElementById("modalImg");
+                const closeBtn = document.querySelector(".modal .close");
+
+                // Selecciona todos los tracks de sliders
+                const tracks = document.querySelectorAll(".home-slider-track, .home-slider-track2");
+
+                tracks.forEach((track) => {
+                    track.addEventListener("click", (e) => {
+                        // Busca el .banner más cercano al click
+                        const banner = e.target.closest(".banner");
+                        if (!banner) return;
+
+                        const img = banner.querySelector("img");
+                        if (!img) return;
+
+                        modalImg.src = img.src;
+                        modal.style.display = "flex"; // o "block"
+                    });
+                });
+
+                // Cerrar modal con botón X
+                closeBtn.addEventListener("click", () => (modal.style.display = "none"));
+
+                // Cerrar modal haciendo click fuera de la imagen
+                modal.addEventListener("click", (e) => {
+                    if (e.target === modal) modal.style.display = "none";
+                });
+            });
+        </script>
+        <script>
+            // Tabs principales
+            const tabBtns = document.querySelectorAll(".tab-btn2");
+            const tabContents = document.querySelectorAll(".tab-content2");
+
+            tabBtns.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    tabBtns.forEach((b) => b.classList.remove("active"));
+                    tabContents.forEach((c) => c.classList.remove("active"));
+                    btn.classList.add("active");
+                    document.getElementById(btn.dataset.tab).classList.add("active");
+                });
+            });
+
+            // Sub-tabs
+            const subTabBtns = document.querySelectorAll(".sub-tab-btn");
+            const subTabContents = document.querySelectorAll(".subtab-content");
+
+            subTabBtns.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const parent = btn.closest(".tab-content2");
+                    parent.querySelectorAll(".sub-tab-btn").forEach((b) => b.classList.remove("active"));
+                    parent.querySelectorAll(".subtab-content").forEach((c) => c.classList.remove("active"));
+                    btn.classList.add("active");
+                    parent.querySelector(`#${btn.dataset.subtab}`).classList.add("active");
+                });
+            });
+
+            // Carrusel
+            document.querySelectorAll(".carrusel").forEach((carrusel) => {
+                const track = carrusel.querySelector(".carrusel-track");
+                const items = carrusel.querySelectorAll(".carrusel-item");
+                const prevBtn = carrusel.querySelector(".carrusel-prev");
+                const nextBtn = carrusel.querySelector(".carrusel-next");
+                let index = 0;
+
+                function updateSlide() {
+                    track.style.transform = `translateX(-${index * 100}%)`;
+                }
+
+                nextBtn.addEventListener("click", () => {
+                    index = (index + 1) % items.length;
+                    updateSlide();
+                });
+
+                prevBtn.addEventListener("click", () => {
+                    index = (index - 1 + items.length) % items.length;
+                    updateSlide();
+                });
+            });
+        </script>
+        <script>
+            // Detecta scroll y agrega la clase "scrolled"
+            window.addEventListener("scroll", function () {
+                const navbar = document.querySelector(".home-header10");
+                navbar.classList.toggle("scrolled", window.scrollY > 50);
+            });
+        </script>
+        <script>
+            const burgerMenu = document.querySelector(".home-burger-menu");
+            const mobileMenu = document.querySelector(".home-mobile-menu");
+            const closeBtn = document.querySelector(".home-menu-close");
+
+            // Abrir menú con hamburguesa
+            burgerMenu.addEventListener("click", () => {
+                mobileMenu.classList.add("active");
+            });
+
+            // Cerrar con botón X
+            closeBtn.addEventListener("click", () => {
+                mobileMenu.classList.remove("active");
+            });
+
+            // Cerrar con clic en un link y hacer scroll
+            document.querySelectorAll(".home-nav2 a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    mobileMenu.classList.remove("active");
+                });
+            });
+        </script>
+        <script>
+            const OFFSET = 80; // altura del header fijo (ajusta)
+            const navLinks = document.querySelectorAll(".home-menu a");
+
+            const sections = Array.from(navLinks)
+                .map((a) => {
+                    const id = a.getAttribute("href");
+                    if (!id || !id.startsWith("#")) return null;
+                    const sec = document.querySelector(id);
+                    return sec ? { link: a, section: sec } : null;
+                })
+                .filter(Boolean);
+
+            function setActive(link) {
+                navLinks.forEach((a) => a.classList.remove("active"));
+                if (link) link.classList.add("active");
+            }
+
+            // Click con scroll suave
+            navLinks.forEach((a) => {
+                a.addEventListener("click", (e) => {
+                    const href = a.getAttribute("href");
+                    if (!href || !href.startsWith("#")) return;
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (!target) return;
+
+                    const y = target.getBoundingClientRect().top + window.pageYOffset - OFFSET;
+                    window.scrollTo({ top: y, behavior: "smooth" });
+                    setActive(a);
+                });
+            });
+
+            // Scrollspy con IntersectionObserver
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    let best = null;
+                    for (const entry of entries) {
+                        if (entry.isIntersecting) {
+                            if (!best || entry.intersectionRatio > best.intersectionRatio) best = entry;
+                        }
+                    }
+                    if (best) {
+                        const match = sections.find((s) => s.section === best.target);
+                        if (match) setActive(match.link);
+                    }
+                },
+                {
+                    root: null,
+                    threshold: [0.3, 0.6, 0.9],
+                    rootMargin: `-${OFFSET + 10}px 0px -40% 0px`,
+                }
+            );
+
+            sections.forEach(({ section }) => observer.observe(section));
+
+            // --- Nuevo: quitar activo en el top ---
+            window.addEventListener("scroll", () => {
+                if (window.scrollY < 50) {
+                    navLinks.forEach((a) => a.classList.remove("active"));
+                }
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const openBtn = document.getElementById("openVideoBtn");
+                const modal = document.getElementById("videoModal");
+                const video = document.getElementById("videoPlayer");
+                const closeBtn = modal.querySelector(".close");
+
+                function openModalWithVideo(src) {
+                    if (!src) {
+                        console.error("No se encontró el src del video.");
+                        return;
+                    }
+
+                    // asigna la fuente (reemplaza cualquier source previo)
+                    video.pause();
+                    video.removeAttribute("src");
+                    while (video.firstChild) video.removeChild(video.firstChild);
+
+                    const source = document.createElement("source");
+                    source.src = src;
+                    source.type = "video/mp4";
+                    video.appendChild(source);
+                    video.load();
+
+                    // mostrar modal
+                    modal.classList.add("open");
+                    modal.setAttribute("aria-hidden", "false");
+
+                    // intentar reproducir; algunos navegadores bloquean autoplay si no hay interacción,
+                    // pero como venimos de un click de usuario esto normalmente permite reproducir.
+                    const playPromise = video.play();
+                    if (playPromise !== undefined) {
+                        playPromise
+                            .then(() => {
+                                // reproducción iniciada
+                            })
+                            .catch((err) => {
+                                // fallback: si no se reproduce, intentamos silenciar y volver a reproducir
+                                console.warn("play() bloqueado, se intentará reproducir en modo silenciado.", err);
+                                video.muted = true;
+                                video.play().catch((e) => console.error("No se pudo reproducir el video incluso silenciado.", e));
+                            });
+                    }
+                }
+
+                function closeModal() {
+                    modal.classList.remove("open");
+                    modal.setAttribute("aria-hidden", "true");
+                    // pausar y reiniciar
+                    try {
+                        video.pause();
+                        video.currentTime = 0;
+                        // limpiar fuente opcional
+                        // video.removeAttribute('src'); video.load();
+                    } catch (e) {
+                        console.error(e);
+                    }
+                }
+
+                // abrir: lee data-video del botón (asegúrate que la ruta sea correcta)
+                openBtn.addEventListener("click", (e) => {
+                    const src = openBtn.dataset.video || "public/video.mp4";
+                    openModalWithVideo(src);
+                });
+
+                // cerrar con botón
+                closeBtn.addEventListener("click", closeModal);
+
+                // cerrar al click fuera del contenido
+                modal.addEventListener("click", (e) => {
+                    if (e.target === modal) closeModal();
+                });
+
+                // cerrar con Esc
+                document.addEventListener("keydown", (e) => {
+                    if (e.key === "Escape" && modal.classList.contains("open")) closeModal();
+                });
+
+                // DEBUG: si ocurre error en la carga del video
+                video.addEventListener("error", (ev) => {
+                    console.error("Error al cargar el video: ", ev);
+                    alert("No se pudo cargar el video. Revisa la ruta o el tipo de archivo.");
+                    closeModal();
+                });
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000, // duración de la animación
+                easing: "ease-in-out", // suavidad
+                once: true, // animar solo una vez
+            });
+        </script>
+        <script>
+            // Captura todos los parámetros GET
+            const params = new URLSearchParams(window.location.search);
+
+            // Asigna los UTM si existen
+            document.getElementById("cotiza-utm-source").value = params.get("utm_source") || "";
+            document.getElementById("cotiza-utm-medium").value = params.get("utm_medium") || "";
+            document.getElementById("cotiza-utm-campaign").value = params.get("utm_id") || params.get("utm_campaign") || "";
+            document.getElementById("cotiza-utm-term").value = params.get("utm_term") || "";
+            document.getElementById("cotiza-utm-content").value = params.get("utm_content") || "";
+
+            document.getElementById("cotiza-utm-source2").value = params.get("utm_source") || "";
+            document.getElementById("cotiza-utm-medium2").value = params.get("utm_medium") || "";
+            document.getElementById("cotiza-utm-campaign2").value = params.get("utm_id") || params.get("utm_campaign") || "";
+            document.getElementById("cotiza-utm-term2").value = params.get("utm_term") || "";
+            document.getElementById("cotiza-utm-content2").value = params.get("utm_content") || "";
+        </script>
+    </body>
+</html>

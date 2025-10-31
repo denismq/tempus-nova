@@ -1089,6 +1089,7 @@ nav ul li a.active::after {
     flex-direction: column;
     padding-top: var(--dl-layout-space-fiveunits);
     width: 100%;
+    background-color: white;
 }
 
 .home-slider2 {
@@ -1429,6 +1430,7 @@ nav ul li a.active::after {
     padding-right: var(--dl-layout-space-fiveunits);
     flex-direction: row;
     justify-content: space-between;
+    background-color: #475743;
 }
 
 .home-header-container2 {
@@ -1466,7 +1468,7 @@ nav ul li a.active::after {
 }
 
 .home-heading16 {
-    color: #000000;
+    color: #475743;
     font-size: 52px;
     font-style: normal;
     font-weight: 400;
@@ -1768,6 +1770,13 @@ nav ul li a.active::after {
     background-color: white;
 }
 
+.home-experience .home-button6 {
+    background-color: #475743;
+}
+.home-experience .home-button6:hover {
+    background-color: #bc987f;
+}
+
 .home-images2 {
     flex: 2.5;
     height: 100%;
@@ -1820,7 +1829,7 @@ nav ul li a.active::after {
 }
 
 .home-header23 .home-header23-title {
-    color: black;
+    color: #475743;
     display: block;
 }
 .home-header23 .home-header23-title .a {
@@ -1894,7 +1903,7 @@ nav ul li a.active::after {
 }
 
 .home-text43 {
-    color: rgb(255, 255, 255);
+    color: #475743;
     line-height: 24px;
 }
 
@@ -2966,6 +2975,7 @@ nav ul li a.active::after {
     padding-right: var(--dl-layout-space-fiveunits);
     flex-direction: column;
     /*padding-bottom: 160px;*/
+    background-color: white;
 }
 
 .home-header33 {
@@ -3576,6 +3586,7 @@ nav ul li a.active::after {
 }
 .logo-tempus img {
     width: 100%;
+    max-width: 250px;
 }
 .container {
     display: flex;
@@ -3589,6 +3600,7 @@ nav ul li a.active::after {
 .caract-descripcion {
     padding: 0;
     width: 100%;
+    gap: 1.5rem;
 }
 .caract-descripcion .feature {
     margin: 0px;
@@ -3597,18 +3609,21 @@ nav ul li a.active::after {
 
 .caract-descripcion .feature img {
     width: 70px;
-    height: auto;
+    height: 70px;
+    /* height: auto; */
     margin-bottom: 10px;
 }
 
 .feature .number {
     font-size: 25px;
     font-weight: 500;
+    color: #475743;
 }
 
 .feature .text {
     font-size: 20px;
     font-weight: 100;
+    color: #475743;
 }
 
 .brochure {
@@ -3765,7 +3780,7 @@ nav ul li a.active::after {
 }
 h3.title {
     font-size: 45px;
-    color: #000000;
+    color: #475743;
     margin-bottom: 30px;
 }
 
@@ -3876,7 +3891,12 @@ h3.title {
     align-items: center;
     padding-left: var(--dl-layout-space-fiveunits);
     padding-right: var(--dl-layout-space-fiveunits);
+    /* background-color: #475743; */
 }
+
+/* .planos .home-heading20.title {
+    color: #ffffff;
+} */
 
 /*TABS PLANOS*/
 /* Contenedor */
@@ -4016,6 +4036,7 @@ h3.title {
     font-size: 45px;
     margin-bottom: 15px;
     font-weight: 400;
+    color: #475743;
 }
 
 .form-container p {
@@ -4113,6 +4134,10 @@ h3.title {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    color: #7a7a7a;
+}
+.descripcion {
+    color: #7a7a7a;
 }
 
 .direccion .icono {

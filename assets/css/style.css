@@ -88,8 +88,8 @@ section {
     border-radius: 40px;
     padding-right: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-oneandhalfunits);
-    /* background-color: #0000F5; */
-    background-color: #bc987f;
+    /* background-color: #bc987f; */
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -97,10 +97,10 @@ section {
     opacity: 1;
 }
 .bg-verde {
-    background-color: #495942;
+    background-color: #475743;
 }
 .bg-rosa {
-    background-color: #edd3c8 !important;
+    background-color: #bc987f !important;
 }
 .bg-blanco {
     background-color: #ffffff !important;
